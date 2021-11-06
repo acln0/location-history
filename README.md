@@ -1,5 +1,5 @@
-## Location History REST service
-This is my submission to the Flink go programming challenge.
+## Location History service
+A REST service exposing CRUD API for orders location history.
 ### Routes
 - `POST` `/v1/location/history/{order_id}`
 - `GET` `/v1/location/history/{order_id}?max=<N>`
